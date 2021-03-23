@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.parallax-inner {
+    position: absolute;
+    overflow: hidden;
+    height: 900px;
+    width: 100%;
+    background: linear-gradient(#008000 0%, #ADFF2F 100%);
+    display: table-cell;
+}
+
+#bio {
+    position: absolute;
+    height: 800px;
+    color: aquamarine;
+    opacity: 0.83;
+    background: linear-gradient(#008000 0%, #ADFF2F 100%);
+    display: table;
+    width: 100% z-index:9
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    line-height: 1.2;
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: aquamarine;
+    margin: 8px auto;
+}
+
+.menu {
+    z-index: 10;
+    position: absolute;
+    top: 10px;
+}
+
+.item {
+    float: left;
+    color: aqua;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
